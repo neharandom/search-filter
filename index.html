@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Search Filter</title>
+    <style>
+        /* Add basic CSS styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding: 20px;
+        }
+        #searchBar {
+            margin-bottom: 20px;
+            padding: 10px;
+            width: 300px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+        #fruitList {
+            list-style: none;
+            padding: 0;
+        }
+        #fruitList li {
+            padding: 10px;
+            margin: 5px 0;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+            width: 300px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Fruit Search Filter</h1>
+    <input type="text" id="searchBar" placeholder="Search for fruits...">
+
+    <ul id="fruitList">
+        <!-- Fruits will be dynamically inserted here by JavaScript -->
+    </ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
